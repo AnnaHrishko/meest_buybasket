@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .flex_purchase_goods {
+    grid-template-columns: 1fr;
+  }
+  .flex_purchase_goods .purchase_goods_row {
+    padding: 34px 24px 32px;
+  }
+  .flex_purchase_goods .purchase_goods_row .heading_line {
+    margin-bottom: 30px;
+  }
+  .flex_purchase_goods .purchase_goods_row .heading_line img {
+    width: 30px;
+    height: 30px;
+    margin-right: 17px;
+  }
+  .flex_purchase_goods .purchase_goods_row .heading_line span {
+    font-size: 20px;
+  }
+  .purchase_goods_wrap .title_purchase_goods {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .btn_right {
+    justify-content: start;
+  }
+}

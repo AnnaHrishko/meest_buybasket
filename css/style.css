@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Montserrat";
+  background: #f8f9fa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  max-width: 1210px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.purchase_goods_wrap .title_purchase_goods {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+.purchase_goods_wrap .subtitle_purchase_goods {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #99A4AF;
+  margin-bottom: 50px;
+}
+
+.flex_purchase_goods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 23px;
+}
+.flex_purchase_goods .purchase_goods_row {
+  background: rgba(133, 184, 242, 0.1);
+  border-radius: 24px;
+  padding: 48px 20px 24px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex_purchase_goods .purchase_goods_row .heading_line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.flex_purchase_goods .purchase_goods_row .heading_line span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #303A45;
+}
+.flex_purchase_goods .purchase_goods_row .heading_line img {
+  width: 32px;
+  height: 32px;
+  margin-right: 17px;
+}
+.flex_purchase_goods .purchase_goods_row p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #303A45;
+  margin-bottom: 25px;
+}
+.green_btn {
+  background: #28D3A1;
+  border-radius: 32px;
+  padding: 9px 24px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn_right {
+  display: flex;
+  justify-content: right;
+}
